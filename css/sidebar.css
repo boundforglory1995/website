@@ -1,0 +1,204 @@
+
+.my_container ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    clear: both;
+}
+.my_container ul .block {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 25% 0;
+    overflow: hidden;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.my_container ul .block img {
+    max-width: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+.my_container ul .block {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 20% 0;
+    transition: 0.8s ease;
+}
+.my_container ul .block:hover span {
+    height: 50%;
+    text-align: center;
+}
+@media screen and (max-width: 1280px) {
+    .my_container ul .block {
+        width: 100%;
+        padding-bottom: 25%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .my_container ul .block {
+        width: 33.33%;
+        padding-bottom: 33.33%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .my_container ul .block {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .my_container ul .block {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+.my_container ul .block img {
+    max-width: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.my_container ul .block2 img {
+    max-width: none;
+    width: 100%;
+    height: 70%;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.my_container ul .block span {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.8s ease;
+}
+.my_container ul .block span {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.show {
+    padding: 10px;
+    border-bottom: 1px #999 dashed;
+    font-size: 15px;
+    height: 50px;
+}
+
+
+.test1 {
+  width:70%;
+  height:70%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  z-index:19;
+  background: url(../Images/about1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    position:absolute;
+}
+.test2 {
+  width:70%;
+  height:70%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+    background: url(../Images/tours.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  z-index:19;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+}
+.test3 {
+  width:70%;
+  height:70%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+      background: url(../Images/sws.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
+}
+  .test4 {
+  width:70%;
+  height:70%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+  top:25%;
+  left:25%;
+     background: url(../Images/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;  
+}
+.mask2 {
+  
+  width:100px;
+  height:100px;
+  background:darkSlateGray;
+  border-radius:50%;
+  position:relative;
+  z-index:21;
+  color:white;
+  text-align:center;
+  background: url(../Images/kellin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor:pointer;
+
+}
